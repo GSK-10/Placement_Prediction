@@ -1,34 +1,44 @@
 # Placement_Prediction
 Machine Learning course-based project (CBP) made using Python | Numpy | Pandas | Sklearn | Tensorflow | Streamlit
 
+<br>
+
 ## Basic Setup
 - Place the Jupyter Notebook and Datasets in the same folder
 - Change the path links of the dataset in the 'read-method' appropriately
 
+<br>
+
 ## Installation
-(!pip install <package_name> | tyoe one command in each cell)
+( !pip install <package_name> ) 
+### NOTE: type one command in each cell
 
 ```
 # Basic
-!pip install scikit-learn
-!pip install pandas
-!pip install numpy
-!pip install matplotlib
-!pip install seaborn
+> !pip install scikit-learn
+> !pip install pandas
+> !pip install numpy
+> !pip install matplotlib
+> !pip install seaborn
 
 # Other:
-pip install tensorflow
-pip install torch
-pip install torchvision
+> !pip install tensorflow
+> !pip install torch
+> !pip install torchvision
 
-# For Interface
-!pip install streamlit
+# To Check installation
+> !pip install streamlit
+Steps:
 (
     type "streamlit hello" to check for streamlit intsall in the terminal
      - Go to --> Anaconda Navigator --> Environments --> Terminal
      - change path to your working directory
      - type > streamlit hello
 )
+
+# To Run the file using above terminal
+> streamlit run cbp_web.py
+
 ```
 
 <br>
